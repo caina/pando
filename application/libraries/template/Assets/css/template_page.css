@@ -1,0 +1,20 @@
+.col-md-2 .main-box .main-box-body{
+	padding: 0 5px 5px 5px;
+}
+#content-wrapper{
+	padding: 15px 15px 35px 0px;
+}
+.configurate .fa-spinner{
+	display: none;
+}
+#widget_theme a{
+	color:#fff;
+}
+.no_show{
+	display: none;
+}
+
+#loading{
+	text-align: center;
+    margin: 10px 10px;
+}

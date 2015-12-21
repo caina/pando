@@ -1,0 +1,20 @@
+**Credits:**
+
+- Bootstrap - http://getbootstrap.com
+- jQuery - http://jquery.com
+- HTML5Shiv - @afarkas @jdalton @jon_neal @rem
+- Respond - Authors & copyright (c) 2012: Scott Jehl, Paul Irish, Nicholas Zakas.
+- Pattern - http://subtlepatterns.com/
+- Photos - http://pixabay.com
+- Sparkline - http://omnipotent.net/jquery.sparkline/ 
+- jQuery Flot - http://flotcharts.org
+- Bootstrap Switch - http://www.larentis.eu/switch/
+- Gritter - http://boedesign.com/demos/gritter/
+- FullCalendar - http://arshaw.com/fullcalendar/
+- Data Tables - http://datatables.net
+- Knob - http://anthonyterrien.com/knob/
+- prettyPhoto - http://www.no-margin-for-errors.com
+- Rateit - http://rateit.codeplex.com/
+- SlimScroll - http://rocha.la
+- jQuery UI - http://jqueryui.com/
+

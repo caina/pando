@@ -1,0 +1,45 @@
+**Changelog:**
+
+**Version 2.0:**
+
+- Updated font awesome icon plugin, Bootstrap and jQuery.
+- Updated font awesome icon code. (All HTML files & custom.js)
+- Moved google web font link from HTML file to style.css. (style.css and all HTML files)
+- Added Meta charset. (All HTML files)
+- Updated following plugins: fullcalendar, bootstrap switch, gritter, flot chart, rateit, jquery ui, knob.
+- Huge design update. (style.css)
+- Removed open sans condensed font (style.css)
+- To top button bug fix. (custom.js)
+- Removed all background images and replaced with colors (style.css)
+- Removed Map block (index.html, style.css)
+- Added one more item in quick widget. (index.html)
+- Removed extensions and pages widget form index page. (index.html)
+- Removed labels from knob block (index.html)
+- Posts page, make post tab bug fix. (posts.html)
+- Updated bootstrap switch code (ui.html, custom.js, style.css)
+- Removed container div from lock-others section. (lock.html)
+- Updated send input box in chat widget. (index.html & widgets.html)
+- Added basic documentation. 
+
+**Version 1.3:**
+
+- Added Front End Version of the Sheldon.
+- Flat removed. 
+
+**Version 1.2.2:**
+
+- Removed Italic Google Web Font to reduce the loading speed. (all html files).
+
+**Version 1.2.1:**
+
+- Moved Map down. (index.html & style.css)
+
+**Version 1.2:**
+
+- Removed animations to reduce the loading speed. (all html files, style.css).
+- Added scroll to top when quick slide button get clicked.
+- Added Map.
+
+**Verion 1.0:**
+
+- Initial Release

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title here -->
+		<title>Documentation</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+
+		
+		<div class="container">
+			<div class="main">
+				<div class="row">
+					<div class="col-md-2">
+					
+						<div class="sidebar">
+							<!-- Project name -->
+							<h3>Sheldon</h3>
+							<ul>
+								<li><a href="#home">Home</a></li>
+								<li><a href="#files">File Structure</a></li>
+								<li><a href="#editing">Editing</a></li>
+								<li><a href="#fonts">Fonts & Icons</a></li>
+								<li><a href="#add-page">Add New Page</a></li>
+								<li><a href="#navigation">Navigation</a></li>
+								<li><a href="#logo">Logo</a></li>
+								<li><a href="#main">Main Content</a></li>
+								<li><a href="#footer">Footer</a></li>
+								<li><a href="#elements">Elements</a></li>
+								<li><a href="#plugins">Plugins</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="col-md-10">
+					
+						<div class="mainbar">
+						
+						
+						
+							<!-- Home -->
+							<h3 id="home">Documentation Overview</h3>
+								
+								<p>To edit this theme, basic knowledge about HTML, CSS, JS & Bootstrap is required. You can learn HTML, CSS and JS from <a href="http://www.w3schools.com/">W3Schools</a>. You can learn Bootstrap by visiting <a href="http://getbootstrap.com/">official site</a>.</p>
+								
+								
+								<div class="alert alert-danger"><strong>Note:</strong> Before you make any changes, take a backup of all files and folders.</div>
+							
+								
+							<hr />
+							
+
+
+<!----------------------------------------------------------------------------------------------------------->														
+							
+							
+							
+							<!-- File structure -->
+							<h3 id="files">File Structure</h3>
+							
+								<p>Theme consists of 3 main folders namely <em>css, img & js</em>. <br />
+								Inside <em>css</em> folder you will find styles used in this theme. <em>style.css</em> is the main stylesheet. <br />
+								Inside <em>img</em> folder you will find all images used in the theme.<br />
+								Inside <em>js</em> folder you will find all Javascript files. <em>custom.js</em> is the main js file.
+								</p>
+							
+							<hr />
+							
+
+
+<!----------------------------------------------------------------------------------------------------------->							
+
+							
+							
+							<!-- Editing -->
+							<h3 id="editing">Editing</h3>
+							
+								<p>To edit files you need any code editor. I recommend using Notepad++.</p>
+								
+								<strong>Add Custom Styles</strong>
+								<p>To add custom styles, create new style sheet in <em>css</em> folder. Include the style file before the closing tag of <code>&lt;head&gt;</code>. Make sure that you are including this new file after <em>style.css</em></p>
+								<p>If you want to add any extra CSS files, copy the file to <em>css</em> folder and link it before <em>style.css</em>.</p>
+								
+								<pre>
+&lt;link href=&quot;css/FILE-NAME.css&quot; rel=&quot;stylesheet&quot;&gt;									
+								</pre>
+								
+								<hr />
+								
+								<strong>Add Custom JavaScript</strong>
+								<p>To add JS, just create a new java script file in <em>js</em> folder. Include the newly created js file before the closing tag of <code>&lt;body&gt;</code>. Make sure that you are including this new file after <em>custom.js</em>. Alternatively you can also include Javascript code directly to the html file by enclosing the code in <code>&lt;script&gt; ...your code... &lt;/script&gt;</code> and adding this above the closing tag of <code>&lt;body&gt;</code></p>
+								<p>If you want to add any extra JS files, copy the file to <em>js</em> folder and link it before <em>custom.js</em>.</p>
+
+								<pre>
+&lt;script src=&quot;js/FILE-NAME.js&quot;&gt;&lt;/script&gt;								
+								</pre>
+							
+								<hr />
+								
+								<strong>Editing HTML</strong>
+								<p>Almost all html codes in this theme are neatly commented. All you need to do is to read the comment and modify the content based on your need.</p>
+								
+								<hr />
+								
+<!----------------------------------------------------------------------------------------------------------->
+														
+			
+							<!-- Fonts -->
+							<h3 id="fonts">Fonts</h3>
+							
+								<p>This theme uses <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome Icons</a> for Icons and <a href="http://www.google.com/fonts">Google Web Fonts</a> for Fonts.</p>
+								
+								<!-- Icon font -->
+								<strong>Icon Font</strong>
+								<p>Refer <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome Icons</a> for list of fonts. To use any fonts in the theme, you need to use the following code.</p>
+								
+								<pre>
+/* Latest version */
+&lt;i class=&quot;fa fa-XXXX&quot;&gt;&lt;/i&gt;
+								</pre>
+								
+								
+								<hr />
+								
+								
+								<!-- Web Font -->
+								<strong>Web Font</strong>
+								<p>This theme uses <em>Open Sans</em>. To add or change font visit <a href="http://www.google.com/fonts">Google Web Fonts</a>, Choose the font, Copy the <em>@import</em> code. Paste it in top of your <em>stylesheet</em>.</p>
+								
+								<pre>
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+								</pre>
+							
+								<hr />
+							
+							
+							
+<!----------------------------------------------------------------------------------------------------------->	
+
+
+
+							<!-- XXXXXXXXXXXXXXXXXXXX -->
+							<!-- If the theme is single page theme, then remove this. -->
+							<h3 id="add-page">Add New Page</h3>
+								<p>This theme comes with <em>0-base.html</em> file. This is the base file using which you can create you own page. Create a copy of the page, rename it and open in Text editor. Edit the title in <code>&lt;title&gt;</code> section. Change heading and add your content. Done.</p>
+								
+								<strong>Add Content</strong>
+								<pre>
+&lt;!-- <b>ADD HEADING</b> --&gt;
+&lt;div class=&quot;page-title&quot;&gt;
+	&lt;h3 class=&quot;pull-left&quot;&gt;&lt;i class=&quot;fa fa-<b>ICON</b>&quot;&gt;&lt;/i&gt; <b>Title Here</b> &lt;span&gt;Hello how are you&lt;/span&gt;&lt;/h3&gt; 	
+	&lt;div class=&quot;breads pull-right&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;<b>Home</b> &lt;/a&gt;/ &lt;a href=&quot;#&quot;&gt;<b>Pages</b> &lt;/a&gt;/ <b>Title</b>
+	&lt;/div&gt;
+	&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;					
+								
+&lt;!-- <b>ADD CONTENT</b> --&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;page-content&quot;&gt;
+		&lt;!-- <b>YOUR CONTENT</b> --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;								
+								</pre>
+								
+								<hr />
+							
+							
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Logo -->
+							<h3 id="logo">Logo</h3>
+								
+								<strong>Logo</strong>
+								<p>Below code shows the markup of <em>Logo</em> area. You can also use images for logo. Just play with HTML. I reommend using PNG images for logo.</p>
+								
+								<pre>
+&lt;div class=&quot;logo&quot;&gt;
+ &lt;h1&gt;&lt;a href=&quot;index.html&quot;&gt;<b>YOUR SITE NAME</b>&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;								
+								</pre>
+								
+								<hr />
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Navigation -->
+							<h3 id="navigation">Navigation</h3>
+								<p>Below code shows the markup of <em>Navigation</em> bar.</p>
+								
+								<pre>
+&lt;ul class=&quot;nav&quot;&gt;
+ <b>&lt;!-- Main navigation. Refer Notes.txt files for reference. --&gt;</b>
+ 
+ <b>&lt;!-- Use the class &quot;current&quot; in main menu to hightlight current main menu --&gt;</b>
+ &lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;&lt;i class=&quot;fa fa-<b>ICON</b>&quot;&gt;&lt;/i&gt; <b>TEXT</b>&lt;/a&gt;&lt;/li&gt;
+ 
+  &lt;li class=&quot;has_submenu&quot;&gt;
+	 &lt;a href=&quot;#&quot;&gt;
+		 &lt;i class=&quot;fa fa-<b>ICON</b>&quot;&gt;&lt;/i&gt; <b>TEXT</b> &lt;span class=&quot;label label-darky&quot;&gt;10&lt;/span&gt;
+		 &lt;!-- Icon to show dropdown --&gt;
+		 &lt;span class=&quot;caret pull-right&quot;&gt;&lt;/span&gt;
+	 &lt;/a&gt;
+	 <b>&lt;!-- Sub navigation --&gt;</b>
+	 &lt;ul&gt;
+		 <b>&lt;!-- Use the class &quot;active&quot; in sub menu to hightlight current sub menu --&gt;</b>
+		 &lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;&lt;i class=&quot;fa fa-angle-double-right&quot;&gt;&lt;/i&gt; <b>TEXT</b>&lt;/a&gt;&lt;/li&gt;
+	 &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;								
+								</pre>
+								
+								<strong>Important</strong>
+									
+									<ul>
+										<li>If you want to highlight the current page in main menu then add the class <em>current</em> to <em>li</em>.</li>
+										<li>If the main menu has sub menu then you need to add the class <em>has_submneu</em> to <em>li</em>.</li>
+										<li>If you are in sub menu, then you need to add the class <em>current</em> & <em>open</em> to the parent </em>li</em> (the one which has <em>has_submenu</em> class). Then you need to add class <em>active</em> to the current page <em>li</em>.</li>
+									</ul>
+								<hr />
+
+
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Main content -->
+							<h3 id="main">Main Content</h3>
+								<p>Below code shows the markup of <em>Main Content</em> area.</p>
+								
+								<pre>
+&lt;!-- <b>ADD HEADING</b> --&gt;
+&lt;div class=&quot;page-title&quot;&gt;
+	&lt;h3 class=&quot;pull-left&quot;&gt;&lt;i class=&quot;fa fa-<b>ICON</b>&quot;&gt;&lt;/i&gt; <b>Title Here</b> &lt;span&gt;Hello how are you&lt;/span&gt;&lt;/h3&gt; 	
+	&lt;div class=&quot;breads pull-right&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;<b>Home</b> &lt;/a&gt;/ &lt;a href=&quot;#&quot;&gt;<b>Pages</b> &lt;/a&gt;/ <b>Title</b>
+	&lt;/div&gt;
+	&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;					
+								
+&lt;!-- <b>ADD CONTENT</b> --&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;page-content&quot;&gt;
+		&lt;!-- <b>YOUR CONTENT</b> --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;									
+								</pre>
+								
+								<p>Below is the code which you need to use <em>Nav Tabs</em> while creating pages.</p>
+								
+								<pre>
+&lt;div class=&quot;page-tabs&quot;&gt;
+	<b>&lt;!-- Nav tabs --&gt;</b>
+	&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+	  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#<b>LINK1</b>&quot; data-toggle=&quot;tab&quot;&gt;<b>NAME</b>&lt;/a&gt;&lt;/li&gt;
+	  &lt;li&gt;&lt;a href=&quot;#<b>LINK2</b>&quot; data-toggle=&quot;tab&quot;&gt;<b>NAME</b>&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+
+	<b>&lt;!-- Tab panes --&gt;</b>
+	&lt;div class=&quot;tab-content&quot;&gt;
+	  &lt;div class=&quot;tab-pane fade active in&quot; id=&quot;<b>LINK1</b>&quot;&gt;
+		&lt;!-- <b>YOUR CONTENT</b> --&gt;
+	  &lt;/div&gt;
+	  &lt;div class=&quot;tab-pane fade&quot; id=&quot;<b>LINK2</b>&quot;&gt;
+		&lt;!-- <b>YOUR CONTENT</b> --&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;								
+								</pre>
+								
+								<hr />
+								
+								<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+								<!-- Admin widgets. If the theme doesn't support Admin widgets remove this. -->
+								<strong>Widgets</strong>
+								<p>Below code shows the markup of <em>Widgets</em>.</p>
+								
+								<pre>
+&lt;!-- Widget --&gt;
+&lt;div class=&quot;widget&quot;&gt;
+
+    <b>&lt;!-- Widget head --&gt;</b>
+    &lt;div class=&quot;widget-head&quot;&gt;
+		&lt;h5 class=&quot;pull-left&quot;&gt;&lt;i class=&quot;icon-<b>ICON</b>&quot;&gt;&lt;/i&gt; <b>HEADING</b>&lt;/h5&gt;	
+		&lt;div class=&quot;widget-head-btns pull-right&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;wminimize&quot;&gt;&lt;i class=&quot;icon-chevron-up&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;wclose&quot;&gt;&lt;i class=&quot;icon-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+	<b>&lt;!-- Widget body --&gt;</b>
+    &lt;div class=&quot;widget-body&quot;&gt;
+		<b>&lt;!-- YOUR CONTENT --&gt;</b>
+    &lt;/div&gt;
+
+	<b>&lt;!-- Widget foot --&gt;</b>
+    &lt;div class=&quot;widget-foot&quot;&gt;
+        &lt;div class=&quot;pull-left&quot;&gt;              
+			<b>&lt;!-- ANY CONTENT --&gt;</b>
+		&lt;/div&gt;
+		&lt;div class=&quot;pull-right&quot;&gt;
+			<b>&lt;!-- ANY CONTENT --&gt;</b>
+		&lt;/div&gt;
+		&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;								
+								</pre>
+								
+								<strong>Scroll Bar and Widget minimize</strong>
+									<p>If you are using Scroll Bar in widget using <em>slimScroll</em> plugin, then don't use <em>minimize</em> button in widget head. It won't work.</p>
+
+								<hr />
+								
+								
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Elements -->
+							
+							<h3 id="elements">Elements</h3>
+								<p>Here are the customization information for some complex elements.</p>
+								
+								<strong>Chat widget</strong>
+								<img src="img/chat.png" alt="" class="img-responsive" />
+								
+								<pre>
+  <b>&lt;!-- Chat by us. Use the class &quot;by-me&quot;. --&gt;</b>
+  &lt;li class=&quot;<b>by-me</b>&quot;&gt;
+	&lt;!-- Use the class &quot;pull-left&quot; in avatar --&gt;
+	&lt;div class=&quot;avatar pull-left&quot;&gt;
+	  &lt;img src=&quot;<b>IMG LINK</b>&quot; alt=&quot;&quot;/&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;chat-content&quot;&gt;
+	  <b>&lt;!-- In meta area, first include &quot;name&quot; and then &quot;time&quot; --&gt;</b>
+	  &lt;div class=&quot;chat-meta&quot;&gt;<b>NAME</b> &lt;span class=&quot;pull-right&quot;&gt;<b>TIME</b>&lt;/span&gt;&lt;/div&gt;
+		<b>&lt;!-- CHAT CONTENT --&gt;</b>
+	  &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+  &lt;/li&gt; 
+
+  <b>&lt;!-- Chat by other. Use the class &quot;by-other&quot;. --&gt;</b>
+  &lt;li class=&quot;<b>by-other</b>&quot;&gt;
+	&lt;!-- Use the class &quot;pull-right&quot; in avatar --&gt;
+	&lt;div class=&quot;avatar pull-right&quot;&gt;
+	  &lt;img src=&quot;<b>IMG LINK</b>&quot; alt=&quot;&quot;/&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;chat-content&quot;&gt;
+	  <b>&lt;!-- In the chat meta, first include &quot;time&quot; then &quot;name&quot; --&gt;</b>
+	  &lt;div class=&quot;chat-meta&quot;&gt;<b>TIME</b> &lt;span class=&quot;pull-right&quot;&gt;<b>NAME</b>&lt;/span&gt;&lt;/div&gt;
+		<b>&lt;!-- CHAT CONTENT --&gt;</b>
+	  &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+  &lt;/li&gt;  								
+								</pre>
+								
+								<hr />
+
+								<strong>Contact widget</strong>
+								<img src="img/contact.png" alt="" class="img-responsive" />
+								
+								<pre>
+<b>&lt;!-- Single contact --&gt;</b>
+&lt;li class=&quot;c-list&quot;&gt;
+	&lt;!-- Contact pic --&gt;
+	&lt;div class=&quot;contact-pic&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;<b>IMG LINK</b>&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;/&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;!-- Contact details --&gt;
+	&lt;div class=&quot;contact-details&quot;&gt;
+		&lt;!-- Contact name and number --&gt;
+		&lt;div class=&quot;pull-left&quot;&gt;
+			&lt;strong&gt;<b>NAME</b>&lt;/strong&gt;
+			&lt;small&gt;<b>PHONE NUMBER</b>&lt;/small&gt;
+		&lt;/div&gt;
+		&lt;!-- Call, Message and Email buttons --&gt;
+		&lt;div class=&quot;pull-right&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;btn btn-info btn-xs&quot;&gt;&lt;i class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;btn btn-success btn-xs&quot;&gt;&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;btn btn-warning btn-xs&quot;&gt;&lt;i class=&quot;fa fa-comment&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/li&gt;								
+								</pre>
+								
+								<hr />
+								
+								<strong>Gallery</strong>
+								<img src="img/gallery.png" alt="" class="img-responsive" />
+								
+								<pre>
+&lt;!-- Each element --&gt;
+&lt;div class=&quot;element&quot;&gt;
+	&lt;!-- Gallery image --&gt;
+	&lt;a href=&quot;<b>BIG IMAGE LINK</b>&quot; class=&quot;prettyphoto&quot;&gt;
+		&lt;img src=&quot;<b>THUMBNAIL IMAGE LINK</b>&quot; alt=&quot;&quot;/&gt;
+	&lt;/a&gt;
+	&lt;!-- Gallery caption --&gt;
+	&lt;div class=&quot;gall-caption&quot;&gt;
+		&lt;ul class=&quot;list-unstyled&quot;&gt;
+			&lt;li&gt;&lt;strong&gt;File name:&lt;/strong&gt; <b>FILE NAME</b>&lt;/li&gt;
+			&lt;li&gt;&lt;strong&gt;File size:&lt;/strong&gt; <b>FILE SIZE</b>&lt;/li&gt;
+			&lt;li&gt;&lt;strong&gt;File type:&lt;/strong&gt; <b>FILE TYPE</b>&lt;/li&gt;
+			&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; <b>DATE</b>&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;								
+								</pre>
+								
+								<hr />
+
+								<strong>UI Slider</strong>
+								<img src="img/hslider.png" alt="" class="img-responsive" />
+								<img src="img/vslider.png" alt="" class="img-responsive" />
+								
+								<pre>
+&lt;!-- Html Code --&gt;
+&lt;div id=&quot;<b>master1</b>&quot; class=&quot;slider-<b>COLOR</b>&quot;&gt;&lt;/div&gt;
+
+&lt;!-- Javascript --&gt;
+$(function() {
+	// Horizontal slider
+	$( &quot;#<b>master1</b>&quot; ).slider({
+		value: 60,
+		<b>orientation: &quot;horizontal&quot;,</b>
+		range: &quot;min&quot;,
+		animate: true
+	});
+});								
+								</pre>
+								
+								<hr />
+
+								<strong>Project widget</strong>
+								<img src="img/project.png" alt="" class="img-responsive" />
+								
+								<pre>
+&lt;li&gt;
+  &lt;p&gt;
+	&lt;!-- Checkbox --&gt;
+	<b>&lt;input value=&quot;check1&quot; type=&quot;checkbox&quot;&gt;</b>
+	&lt;!-- Name --&gt;
+	&lt;strong&gt;<b>PROJECT NAME</b>&lt;/strong&gt;
+  &lt;/p&gt;
+
+  &lt;p class=&quot;p-meta&quot;&gt;
+	&lt;!-- Due date &amp; % Completed --&gt;
+	&lt;span&gt;Due : <b>DATE</b> - <b>PERCENT DONE</b> Done&lt;/span&gt; 
+  &lt;/p&gt;
+	
+	&lt;!-- Progress bar --&gt;
+  &lt;div class=&quot;progress progress-striped active&quot;&gt;
+	  &lt;div class=&quot;progress-bar progress-bar-info&quot;  role=&quot;progressbar&quot; aria-valuenow=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 90%&quot;&gt;
+		&lt;span class=&quot;sr-only&quot;&gt;90% Complete&lt;/span&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/li&gt;								
+								</pre>
+								
+								<hr />
+
+								<strong>Quick widget</strong>
+								<img src="img/qwidget.png" alt="" class="img-responsive" />
+								
+								<pre>
+&lt;li&gt;
+	&lt;a href=&quot;#&quot; class=&quot;bs-tooltip&quot; title=&quot;<b>TOOLTIP NAME</b>&quot;&gt;&lt;i class=&quot;fa fa-<b>ICON NAME</b>&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/li&gt;								
+								</pre>
+								
+								<hr />
+
+								<strong>Switch (Toggle)</strong>
+								<img src="img/switch.png" alt="" class="img-responsive" />
+								<p>Primary - Red, Info - Light Blue. For other color classes refer bootstrap doc.</p>
+								<pre>
+&lt;div class=&quot;<b>make-switch</b>&quot;&gt;
+	&lt;input type=&quot;checkbox&quot; checked data-on=&quot;<b>primary</b>&quot; data-off=&quot;<b>info</b>&quot;&gt;
+ &lt;/div&gt;								
+								</pre>
+								
+								<hr />
+
+								<strong>Task widget</strong>
+								<img src="img/task.png" alt="" class="img-responsive" />
+								<p>Priorities - important, pending, normal.</p>
+								<pre>
+ &lt;li class=&quot;task-<b>PRIORITY</b>&quot;&gt; &lt;input type=&quot;checkbox&quot;&gt; &lt;span&gt;<b>TASK</b>&lt;/span&gt; &lt;/li&gt;
+								</pre>
+								
+								<hr />
+
+								
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							
+							<!-- XXXXXXXXXXXXXXXXXXXX -->
+							<!-- Remove the plugins which are not used in this theme -->
+							<!-- Plugins used -->
+							<h3 id="plugins">Plugins</h3>
+							
+								<p>This theme uses following plugins. To customize the plugins, you need to refer the official Plugin documentation found in below links.</p>
+								<ul>
+									<li><a href="http://getbootstrap.com">Bootstrap</a> - Whole theme is made using Bootstrap.</li>
+									
+									<li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesom Icon</a> - For Vector Icons.</li>
+									
+									<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">PrettyPhoto</a> - Gallery & Portfolio section Photos lightbox.</li>
+									
+									<li><a href="http://www.flotcharts.org/">Flot Charts</a> - For Charts - Bar, Pie, Line, Real Time, Curve.</li>
+									
+									<li><a href="http://omnipotent.net/jquery.sparkline/">Sparklines</a> - For Mini Charts.</li>
+									
+									<li><a href="http://arshaw.com/fullcalendar/">Full Calendar</a> - Google Calendar Plugin.</li>
+									
+									<li><a href="http://rateit.codeplex.com/">RateIt</a> - jQuery Star Rating Plugin.</li>
+									
+									<li><a href="http://boedesign.com/demos/gritter/">Gritter</a> - Notification Plugin.</li>
+									
+									<li><a href="http://anthonyterrien.com/knob/">Knob</a> - Knob Style Data Plugin.</li>
+									
+									<li><a href="https://datatables.net/">DataTables</a> - Dynamic Table</li>
+									
+									<li><a href="http://rocha.la/jQuery-slimScroll">Slim Scroll</a> - Slim Scroll Bar</li>
+									
+									<li><a href="http://www.bootstrap-switch.org">Bootstrap switch</a> - Bootstrap toggle buttons</li>
+									
+									<li><a href="https://jqueryui.com/">jQuery UI</a> - For Horizontal and Vertical drag slider</li>
+								</ul>
+							
+							
+<!----------------------------------------------------------------------------------------------------------->														
+							
+							
+							<!-- Changelog 
+							<h3 id="changelog">Changelog</h3>
+							
+								<strong>Version 1.0:</strong>
+								<ul>
+									<li>Initial Release.</li>
+								</ul>
+							-->
+							
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<br />
+			<div class="footer text-center">
+				Copyright 2013 - <a href="http://responsivewebinc.com">Responsive Web Inc</a>
+			</div>
+		</div>
+		
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>
