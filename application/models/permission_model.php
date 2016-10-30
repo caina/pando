@@ -228,11 +228,11 @@ class Permission_model extends Authenticated_model {
 			return true;
 		}
 		
-		if(!($permission->num_rows > 0) && apache_request_headers()["Host"]=="localhost"){
-			echo $this->db->last_query();
-			dump($controller." - ".$method);
+		// if(!($permission->num_rows > 0) && apache_request_headers()["Host"]=="localhost"){
+		// 	echo $this->db->last_query();
+		// 	dump($controller." - ".$method);
 			
-		}
+		// }
 
 		// dump($permission);
 		// echo $this->router->fetch_class();

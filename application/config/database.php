@@ -45,12 +45,12 @@
 | the active record class
 */
 
-$active_group = apache_request_headers()["Host"]=="localhost"?'default':'getup';
+$active_group = "default";
 $active_record = TRUE;
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'npando';
+$db['default']['hostname'] = 'mysql06-farm13.kinghost.net';
+$db['default']['username'] = 'vivisushi01';
+$db['default']['password'] = 'ZXCvbn123';
+$db['default']['database'] = 'vivisushi01';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -62,39 +62,6 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-
-$db['getup']['hostname'] = 'localhost';
-$db['getup']['username'] = 'admin9xwczFK';
-$db['getup']['password'] = 'h-J1xqnGdjEX';
-$db['getup']['database'] = 'pando';
-$db['getup']['dbdriver'] = 'mysql';
-$db['getup']['dbprefix'] = '';
-$db['getup']['pconnect'] = TRUE;
-$db['getup']['db_debug'] = TRUE;
-$db['getup']['cache_on'] = FALSE;
-$db['getup']['cachedir'] = '';
-$db['getup']['char_set'] = 'utf8';
-$db['getup']['dbcollat'] = 'utf8_general_ci';
-$db['getup']['swap_pre'] = '';
-$db['getup']['autoinit'] = TRUE;
-$db['getup']['stricton'] = FALSE;
-
-$db['mbr']['hostname'] = 'www.mbr.mx';
-$db['mbr']['username'] = 'root';
-$db['mbr']['password'] = 'C0nn3c71v3';
-$db['mbr']['database'] = 'pando';
-$db['mbr']['dbdriver'] = 'mysql';
-$db['mbr']['dbprefix'] = '';
-$db['mbr']['pconnect'] = TRUE;
-$db['mbr']['db_debug'] = TRUE;
-$db['mbr']['cache_on'] = FALSE;
-$db['mbr']['cachedir'] = '';
-$db['mbr']['char_set'] = 'utf8';
-$db['mbr']['dbcollat'] = 'utf8_general_ci';
-$db['mbr']['swap_pre'] = '';
-$db['mbr']['autoinit'] = TRUE;
-$db['mbr']['stricton'] = FALSE;
-
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */

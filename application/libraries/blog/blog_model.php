@@ -223,8 +223,10 @@ class Blog_model extends Dynamic_model{
 
 	function updade_gallery_images($post_id,$images){
 		$this->db->delete('blog_gallery', array("blog_post_id"=>$post_id));
-		foreach ($images as $image) {
-			$this->get_db()->insert('blog_gallery', array("image"=>$image,"blog_post_id"=>$post_id));
+		if(!empty($images)){
+			foreach ($images as $image) {
+				$this->get_db()->insert('blog_gallery', array("image"=>$image,"blog_post_id"=>$post_id));
+			}
 		}
 	}
 
@@ -287,6 +289,7 @@ class Blog_model extends Dynamic_model{
 			id_user int null,
 			id_brand int null,
 			title varchar(90) null,
+			slug varchar(90) null,
 			cover_photo varchar(255) null,
 			entry text null,
 			tags varchar(255) null,
@@ -345,7 +348,4 @@ EOT;
 		}
 	}
 }
-
-
 ?>
-

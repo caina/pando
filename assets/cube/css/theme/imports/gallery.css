@@ -1,0 +1,69 @@
+/* GALLERY */
+#gallery-photos-wrapper {
+  position: relative;
+}
+.gallery-photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.gallery-photos li {
+  float: left;
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  overflow: hidden;
+  position: relative;
+}
+.gallery-photos li .photo-box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-width: 100px;
+  min-height: 100px;
+  padding-top: 98%;
+  display: block;
+}
+.gallery-photos li .photo-box.image-link {
+  padding-top: 68%;
+}
+.gallery-photos li:hover .photo-box:after {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 8px;
+  bottom: 0;
+  left: 8px;
+}
+.gallery-photos.gallery-photos-hover {
+  cursor: move;
+}
+.gallery-photos .remove-photo-link {
+  cursor: pointer;
+  display: none;
+  left: 50%;
+  margin-left: -18.5px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  margin-top: -18.5px;
+}
+.gallery-photos .thumb-meta-time {
+  bottom: 10px;
+  color: #eee;
+  font-size: 0.75em;
+  left: 18px;
+  position: absolute;
+}
+.gallery-photos li .remove-photo-link .icon-stack {
+  font-size: 2em;
+}
+.gallery-photos.gallery-photos-hover li:hover .remove-photo-link {
+  display: block;
+}

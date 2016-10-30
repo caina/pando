@@ -40,6 +40,15 @@
 
 				<div class="main-box-body clearfix">
 					<div class="form-group">
+						<label for="exampleInputEmail1">Slug</label>
+						<input type="text" name="slug" value="<?php echo @$database_post->slug ?>" class="form-control" placeholder="Titulo">
+						<p>
+						Rota que será mostrada na url do blog, separe por "-" e Não use "/".
+					</div>
+				</div>
+
+				<div class="main-box-body clearfix">
+					<div class="form-group">
 						<label for="exampleInputEmail1">Capa</label>
 						<input type="file" class="filestyle" name="cover_photo" value="<?php echo @$database_post->cover_photo ?>" data-buttonBefore="true" data-buttonText=" &nbsp;Procurar Arquivo" />
 					</div>

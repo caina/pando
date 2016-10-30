@@ -19,7 +19,7 @@
  */
  //die("Desculpe-nos o transtorno, estamos em manutenção. Voltamos em 30 minutos");
 	//die("Estamos com problemas t&eacute;cnicos, voltaremos o mais preve poss&iacute;vel.");
-	define('ENVIRONMENT', 'development');
+	define('ENVIRONMENT', 'production');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
