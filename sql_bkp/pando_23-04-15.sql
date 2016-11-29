@@ -5,7 +5,6 @@
  Source Server Type    : MySQL
  Source Server Version : 100119
  Source Host           : localhost
- Source Database       : clemar
 
  Target Server Type    : MySQL
  Target Server Version : 100119
